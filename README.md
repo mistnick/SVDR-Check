@@ -21,10 +21,9 @@ Ogni release contiene `SHA256SUMS.txt` con l'impronta di ogni file:
 shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 ```
 
-## Nota sugli installer
+## Firma degli installer
 
-Gli installer non sono ancora firmati con un certificato del produttore. Al primo avvio:
-- macOS: clic destro sull'app → Apri, poi conferma;
-- Windows: SmartScreen → Ulteriori informazioni → Esegui comunque.
+- **macOS**: firmato con il certificato Developer ID di Beatdata Srl (team U65MM47RFU) e notarizzato da Apple. Si apre senza avvisi.
+- **Windows e Linux**: non ancora firmati. Su Windows, al primo avvio, SmartScreen → Ulteriori informazioni → Esegui comunque.
 
 Supporto: legal@simplevdr.com
